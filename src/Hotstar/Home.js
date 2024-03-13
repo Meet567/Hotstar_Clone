@@ -722,6 +722,164 @@ function Home() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      {/* ---------- * Section 4 * ---------- */}
+
+      <div
+        id="carouselExampleIndicators3"
+        class="carousel slide cardimg container"
+      >
+        <div class="carousel-inner ">
+          <h4 className="cardtext"> Popular Shows </h4>
+          <div class="carousel-item active">
+            <div class="row row-cols-1 row-cols-md-5 g-3 cardslider1">
+              <div class="col cardslider2">
+                <div class="card cardbox ">
+                  <img
+                    src={POPULAR1}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR2}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR3}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR4}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR5}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-5 g-3 cardslider1">
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={POPULAR6} class="card-img-top" alt="..." />
+                </div>
+              </div>
+
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={POPULAR7} class="card-img-top" alt="..." />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={POPULAR8} class="card-img-top" alt="..." />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={POPULAR9} class="card-img-top" alt="..." />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={POPULAR10} class="card-img-top" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-5 g-3">
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR11}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR12}
+                    class="card-img-topletestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR13}
+                    class="card-img-topletestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR14}
+                    class="card-img-topletestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={POPULAR15}
+                    class="card-img-topletestrelease"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev cardbtn"
+          type="button"
+          data-bs-target="#carouselExampleIndicators3"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next cardbtn"
+          type="button"
+          data-bs-target="#carouselExampleIndicators3"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   );
 }
