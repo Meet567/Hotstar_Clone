@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #0f1014;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+}
+.loginsign {
+  margin-top: 20px;
+}
+.login2 {
+  background-color: #16181f;
+  height: 350px;
+  width: 100%;
+  max-width: 650px;
+  border-radius: 10px;
+  color: white;
+}
+@media only screen and (min-width: 400px) {
+  .login2 {
+    height: 470px;
+    margin-top: 0px;
+    padding: 0 20px;
+  }
+}
+.qrscan {
+  color: #707a94;
+  font-size: 11px;
+}
+.login3 {
+  background-color: #16181f;
+  text-align: center;
+}
+.scanerdetail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.hotscaner {
+  width: 800px;
+}
+.qrscannerimg {
+  width: 110px;
+}
+.usecamera {
+  color: #707a94;
+  font-size: 13px;
+  margin-top: 8px;
+}
+@media only screen and (max-width: 500px) {
+  .scanerdetail {
+    flex-wrap: wrap;
+  }
+}
+
+.fromdetail {
+  flex-wrap: wrap;
+}
+input[type="text"] {
+  outline: none;
+  padding: 7px;
+  background: transparent;
+  border: 0.5px solid #707a94;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+.country {
+  border: 1px solid #707a94;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 8px;
+  color: #707a94;
+}
+
+.terms {
+  color: #707a94;
+  margin-top: 8px;
+  font-size: 11px;
+}
+.having {
+  color: #707a94;
+  font-size: 13px;
+}
+.loginhelp {
+  margin-top: 150px;
+}
+.gethelp {
+  text-decoration: none;
+  color: #3586e3;
+}
+@media screen and (max-width: 500px) {
+  .loginhelp {
+    margin-top: 50px;
+  }
+}

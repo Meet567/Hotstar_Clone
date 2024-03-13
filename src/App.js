@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+
+import HotstarApp from "./Hotstar/HotstarApp";
+
+import Home from "./Hotstar/Home";
+import Tv from "./Hotstar/Tv";
+import Movies from "./Hotstar/Movies";
+import Sports from "./Hotstar/Sports";
+import Categories from "./Hotstar/Categories";
+import LoginPage from "./Hotstar/LoginPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HotstarApp />
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/tv" element={<Tv />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/sports" element={<Sports />} />
+        <Route path="/categories" element={<Categories />} />
+      </Routes>
     </div>
   );
 }

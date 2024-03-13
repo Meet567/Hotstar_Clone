@@ -1,0 +1,155 @@
+* {
+  margin: 0px;
+  border: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: black; */
+  /* color: white; */
+}
+.hotstarlogo {
+  width: 50px;
+  height: 30px;
+}
+.subscribe {
+  color: orange;
+  border: none;
+  font-size: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #27231e;
+  border-radius: 15px;
+  padding: 3px;
+}
+.righticon {
+  width: 5px;
+}
+.subscribelink {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  height: 70px;
+  /* background-color: #131921; */
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+/* *** Nav Manu ** */
+.nav-item {
+  list-style-type: none;
+  align-items: center;
+  /* background-color: #131921; */
+  font-size: 20px;
+  width: 170px;
+  height: 700px;
+  position: fixed;
+  top: 5px;
+  line-height: 60px;
+}
+
+li {
+  /* background-color: #131921; */
+  animation: slideRight 0.5s ease forwards;
+  background: transparent;
+  font-size: 15px;
+  text-align: left;
+}
+
+.navbarlink {
+  /* background-color: #131921; */
+  text-decoration: none;
+  color: white;
+  background: transparent;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+    background: transparent;
+  }
+  50% {
+    transform: translateX(50px);
+    opacity: 0.5;
+    background: transparent;
+  }
+  100% {
+    transform: translateX(0px);
+    background: transparent;
+    opacity: 1;
+  }
+}
+.navbarlink:hover {
+  color: rgb(61, 151, 162);
+}
+
+/* li {
+    border: 2px solid transparent;
+  } */
+li:hover {
+  /* border: 2px solid white; */
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.about {
+  background-color: black;
+}
+h3 {
+  /* background-color: black; */
+  color: white;
+}
+
+.active {
+  color: rgb(79, 154, 219);
+  background-color: #283542;
+  border-radius: 15px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    display: flex;
+    justify-content: left;
+    max-width: 70px;
+    z-index: 1;
+  }
+  .nav-item {
+    max-width: 110px;
+    font-size: 8px;
+    text-align: left;
+    margin-left: -25px;
+    flex-direction: column;
+    display: flex;
+    line-height: auto;
+  }
+  .navbtn {
+    display: none;
+  }
+  .hotstarlogo {
+    max-width: 28px;
+    max-height: 18px;
+  }
+
+  .subscribelink {
+    margin-top: -40px;
+    margin-bottom: 20px;
+  }
+
+  .subscribe {
+    font-size: 5px;
+    padding: 2px 2px;
+  }
+  .righticon {
+    max-width: 5px;
+  }
+
+  li {
+    font-size: 10px;
+    text-align: left;
+  }
+}

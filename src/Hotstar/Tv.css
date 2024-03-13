@@ -1,0 +1,19 @@
+.cardimg {
+  background-color: #0f1014;
+}
+.cardtext {
+  text-align: left;
+  color: white;
+}
+.letestrelease {
+  height: auto;
+  width: auto;
+}
+.cardbox {
+  border: none;
+  transition: transform 0.5s;
+}
+.cardbox:hover {
+  border: none;
+  transform: scale(1.1);
+}

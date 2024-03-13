@@ -1,0 +1,239 @@
+/* ---------- * Section 1 * ---------- */
+
+.hotstrsldr {
+  background-color: #0f1014;
+}
+.carousel-item {
+  background-color: #0f1014;
+}
+
+.salaarimg {
+  width: 100%;
+  height: 600px;
+  margin-top: -160px;
+  animation-duration: 2s;
+}
+.details {
+  width: 500px;
+  height: 350px;
+  text-align: left;
+}
+.mainslider {
+  margin-top: -70px;
+  animation-duration: 2s;
+}
+.div1 {
+  margin-top: -70px;
+}
+
+.video1 {
+  width: 1300px;
+  height: 1000px;
+  border: none;
+}
+
+.animation {
+  animation-duration: 2s;
+}
+.hotspecial {
+  color: #0b9b48;
+}
+
+.salaarimgdetails {
+  text-align: left;
+}
+.salaarimgtext1 {
+  font-size: 25px;
+}
+
+.salaarimgtext2 {
+  color: #7f8080;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.brahmastraimgtext2 {
+  color: #db6818;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.ligerimgtext2 {
+  color: #ebece8;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.salaarimgtext3 {
+  font-weight: normal;
+  width: auto;
+  font-weight: normal;
+}
+.watchbtn {
+  background-color: white;
+  color: black;
+  width: 300px;
+  border: none;
+  padding: 12px 100px;
+  border-radius: 10px;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.videoiconpls {
+  background: linear-gradient(
+    rgba(127, 124, 124, 0.3),
+    rgba(127, 124, 124, 0.3)
+  );
+  color: white;
+  width: 300px;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 21px;
+  text-decoration: none;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  margin: 70px;
+  width: 30px;
+}
+.cartsllider {
+  z-index: 1;
+}
+
+@media screen and (max-width: 750px) {
+  .salaarimg {
+    max-width: 100%;
+    max-height: 250px;
+    margin-top: -150px;
+    animation-duration: 2s;
+  }
+
+  .details {
+    max-width: 200px;
+    max-height: 300px;
+    text-align: left;
+  }
+  .mainslider {
+    animation-duration: 2s;
+  }
+
+  .salaarimgtext1 {
+    font-size: 5px;
+    margin-top: 100px;
+  }
+  .salaarimgtext2 {
+    color: #7f8080;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .brahmastraimgtext2 {
+    color: #db6818;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .ligerimgtext2 {
+    color: #ebece8;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .salaarimgtext3 {
+    max-width: 150px;
+    font-size: 6px;
+  }
+  .discription {
+    font-size: 10px;
+  }
+  .watchbtn {
+    max-width: 100px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .videoiconpls {
+    max-width: 300px;
+    padding: 6px 11px;
+    font-size: 11px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin: 50px;
+    width: 15px;
+  }
+}
+
+/* ---------- * Section 2 * ---------- */
+
+.cardimg {
+  background-color: #0f1014;
+}
+.cardtext {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.letestrelease {
+  height: auto;
+  width: auto;
+}
+.cardbox {
+  border: none;
+  transition: transform 0.5s;
+}
+.cardbox:hover {
+  border: none;
+  transform: scale(1.1);
+  /* z-index: 1; */
+  background-color: transparent;
+}
+.cardcursor {
+  cursor: pointer;
+}
+.newlyadded {
+  color: #45c7f4;
+}
+
+@media screen and (max-width: 750px) {
+  .cardimg {
+    background-color: #0f1014;
+  }
+  .cardtext {
+    text-align: left;
+    color: white;
+    font-size: 9px;
+  }
+  .letestrelease {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .cardbox {
+    border: none;
+    transition: transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: transparent;
+  }
+
+  .cardslider1 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .cardslider2 {
+    /* background-color: #db6818; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 64px;
+  }
+
+  .cardbox:hover {
+    border: none;
+    transform: scale(1.1);
+    /* z-index: 1; */
+  }
+}
