@@ -179,6 +179,14 @@
   height: auto;
   width: auto;
 }
+
+.toptenicon {
+  height: 70px;
+  width: auto;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: -115px;
+}
 .cardbox {
   border: none;
   transition: transform 0.5s;
@@ -235,5 +243,13 @@
     border: none;
     transform: scale(1.1);
     /* z-index: 1; */
+  }
+
+  .toptenicon {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -35px;
   }
 }

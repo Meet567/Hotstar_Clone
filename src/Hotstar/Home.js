@@ -54,6 +54,29 @@ import POPULAR13 from "../AssetsPic/Popular Shows/Popular Shows13.webp";
 import POPULAR14 from "../AssetsPic/Popular Shows/Popular Shows14.jpg";
 import POPULAR15 from "../AssetsPic/Popular Shows/Popular Shows15.jpg";
 
+import TOP1 from "../AssetsPic/Today Hindi/Today Top Hindi1.jpg";
+import TOP2 from "../AssetsPic/Today Hindi/Today Top Hindi2.jpg";
+import TOP3 from "../AssetsPic/Today Hindi/Today Top Hindi3.jpg";
+import TOP4 from "../AssetsPic/Today Hindi/Today Top Hindi4.jpg";
+import TOP5 from "../AssetsPic/Today Hindi/Today Top Hindi5.jpg";
+import TOP6 from "../AssetsPic/Today Hindi/Today Top Hindi6.jpg";
+import TOP7 from "../AssetsPic/Today Hindi/Today Top Hindi7.jpg";
+import TOP8 from "../AssetsPic/Today Hindi/Today Top Hindi8.jpg";
+import TOP9 from "../AssetsPic/Today Hindi/Today Top Hindi9.jpg";
+import TOP10 from "../AssetsPic/Today Hindi/Today Top Hindi10.jpg";
+
+import TOPI1 from "../AssetsPic/Today Hindi/TopIcon1.png";
+import TOPI2 from "../AssetsPic/Today Hindi/TopIcon2.png";
+import TOPI3 from "../AssetsPic/Today Hindi/TopIcon3.png";
+import TOPI4 from "../AssetsPic/Today Hindi/TopIcon4.png";
+import TOPI5 from "../AssetsPic/Today Hindi/TopIcon5.png";
+import TOPI6 from "../AssetsPic/Today Hindi/TopIcon6.png";
+import TOPI7 from "../AssetsPic/Today Hindi/TopIcon7.png";
+import TOPI8 from "../AssetsPic/Today Hindi/TopIcon8.png";
+import TOPI9 from "../AssetsPic/Today Hindi/TopIcon9.png";
+import TOPI10 from "../AssetsPic/Today Hindi/TopIcon10.png";
+import HotstarFooter from "./HotstarFooter";
+
 function Home() {
   return (
     <div>
@@ -726,11 +749,138 @@ function Home() {
       {/* ---------- * Section 4 * ---------- */}
 
       <div
+        id="carouselExampleIndicators4"
+        class="carousel slide cardimg container"
+      >
+        <div class="carousel-inner ">
+          <h4 className="cardtext"> Top 10 in India Today - Hindi </h4>
+          <div class="carousel-item active">
+            <div class="row row-cols-1 row-cols-md-5 g-3 cardslider1">
+              <div class="col cardslider2">
+                <div class="card cardbox ">
+                  <img
+                    src={TOP1}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+
+                <img src={TOPI1} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={TOP2}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+
+                <img src={TOPI2} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={TOP3}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+
+                <img src={TOPI3} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={TOP4}
+                    class="card-img-top letestrelease"
+                    alt="..."
+                  />
+                </div>
+
+                <img src={TOPI4} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img
+                    src={TOP5}
+                    class="card-img-top letestrelease "
+                    alt="..."
+                  />
+                </div>
+                <img src={TOPI5} class="card-img-top toptenicon " alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-5 g-3 cardslider1">
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={TOP6} class="card-img-top" alt="..." />
+                </div>
+
+                <img src={TOPI6} class="card-img-top toptenicon " alt="..." />
+              </div>
+
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={TOP7} class="card-img-top" alt="..." />
+                </div>
+
+                <img src={TOPI7} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={TOP8} class="card-img-top" alt="..." />
+                </div>
+
+                <img src={TOPI8} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={TOP9} class="card-img-top" alt="..." />
+                </div>
+
+                <img src={TOPI9} class="card-img-top toptenicon " alt="..." />
+              </div>
+              <div class="col cardslider2">
+                <div class="card cardbox">
+                  <img src={TOP10} class="card-img-top" alt="..." />
+                </div>
+
+                <img src={TOPI10} class="card-img-top toptenicon " alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev cardbtn"
+          type="button"
+          data-bs-target="#carouselExampleIndicators4"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next cardbtn"
+          type="button"
+          data-bs-target="#carouselExampleIndicators4"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      {/* ---------- * Section 5 * ---------- */}
+
+      <div
         id="carouselExampleIndicators3"
         class="carousel slide cardimg container"
       >
         <div class="carousel-inner ">
-          <h4 className="cardtext"> Popular Shows </h4>
+          <h4 className="cardtext"> Movies from the 2010s </h4>
           <div class="carousel-item active">
             <div class="row row-cols-1 row-cols-md-5 g-3 cardslider1">
               <div class="col cardslider2">
@@ -880,6 +1030,7 @@ function Home() {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <HotstarFooter />
     </div>
   );
 }
