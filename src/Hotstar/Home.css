@@ -194,7 +194,7 @@
 .cardbox:hover {
   border: none;
   transform: scale(1.1);
-  /* z-index: 1; */
+
   background-color: transparent;
 }
 .cardcursor {
